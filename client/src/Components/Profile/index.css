@@ -1,0 +1,118 @@
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .profile-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fcd34d; /* Yellow Instagram-ish border */
+    margin-bottom: 15px;
+  }
+  
+  .username {
+    font-size: 0.95rem;
+    color: #888;
+    margin: 4px 0;
+  }
+  
+  .bio {
+    font-size: 0.95rem;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  .score {
+    margin-top: 8px;
+    color: #6b21a8;
+    font-weight: 600;
+  }
+  
+  .edit-btn,
+  .save-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover,
+  .save-btn:hover {
+    background: #1e40af;
+  }
+  
+  .edit-section {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .edit-section input,
+  .edit-section textarea {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .attempts-section {
+    margin-top: 40px;
+  }
+  
+  .attempts-section h3 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .attempt-card {
+    background: #fff;
+    border-left: 5px solid #9333ea;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .date {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 6px;
+  }
+  
+  .loading,
+  .no-profile,
+  .no-attempts {
+    text-align: center;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+.coloring{
+    color:#000;
+}
+
+.coloring-el{
+    color:#eeedea !important;
+}

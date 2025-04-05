@@ -1,0 +1,23 @@
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.heading-landing-page{
+    color: #f3efef;
+}
+
+.slider-container {
+    background-color: #419be0;
+    padding: 40px;
+    width: 80%;
+    height: 40vh;
+}
+
+.image-one{
+    width:100%;
+    height: 40vh;
+    background-size:cover;
+}
